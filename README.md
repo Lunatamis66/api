@@ -100,21 +100,3 @@ requirements.txt
 docker-compose.yml
 Dockerfile
 ```
-
-## Publicando no GitHub
-
-### 1) Inicializar repositorio local
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: FastAPI users API with PostgreSQL/TimescaleDB"
-```
-
-### 2) Criar repositorio no GitHub e conectar
-
-```bash
-git branch -M main
-git remote add origin <URL_DO_REPOSITORIO>
-git push -u origin main
-```
